@@ -85,9 +85,3 @@ print("-- ============================================\n")
 for stmt in all_copies:
     print(stmt)
     print()
-
-print("-- ============================================")
-print("-- STEP 3: VERIFY ROW COUNTS")
-print("-- ============================================\n")
-for table_name in csv_files:
-    print(f"SELECT COUNT(*) FROM {table_name};")
