@@ -1,6 +1,19 @@
 # Instacart Market Basket Analysis
 
-An end-to-end data analysis project using real Instacart grocery order data to uncover customer behaviour, reorder patterns, and peak shopping trends.
+An end-to-end data analysis project using real Instacart grocery order data of 3M+ rows  to uncover customer behaviour, reorder patterns, and peak shopping trends and transform it into a intractive dashbords using power bi and python(pandas) to do analysis.
+
+
+## Dashboard Preview
+## Page 1
+![Dashboard Preview](Dashboard/Page1.png) 
+## Page 2
+![Dashboard Preview](Dashboard/page2.png)
+## Page 3
+![Dashboard Preview](Dashboard/page3.png)
+## Page 4
+![Dashboard Preview](Dashboard/page4.png)
+## Page 5
+![Dashboard Preview](Dashboard/page5.png)
 
 ---
 
@@ -103,19 +116,6 @@ Screenshots are available in `dashboard/` and only screenshots are uploaded due 
 - **Average basket size:** X items per order
 - **Top department:** Produce accounts for X% of all items ordered
 
----
-
-## Dashboard Preview
-## Page 1
-![Dashboard Preview](Dashboard/Page1.png) 
-## Page 2
-![Dashboard Preview](Dashboard/page2.png)
-## Page 3
-![Dashboard Preview](Dashboard/page3.png)
-## Page 4
-![Dashboard Preview](Dashboard/page4.png)
-## Page 5
-![Dashboard Preview](Dashboard/page5.png)
 
 ---
 
