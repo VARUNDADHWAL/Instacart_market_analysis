@@ -107,11 +107,11 @@ Screenshots are available in `dashboard/` and only screenshots are uploaded due 
 
 ## Dashboard Preview
 
-![Dashboard Preview](dashboard/Page 1.png)
-![Dashboard Preview](dashboard/page 2.png)
-![Dashboard Preview](dashboard/page 3.png)
-![Dashboard Preview](dashboard/page 4.png)
-![Dashboard Preview](dashboard/page 5.png)
+![Dashboard Preview](Dashboard/Page 1.png)
+![Dashboard Preview](Dashboard/page 2.png)
+![Dashboard Preview](Dashboard/page 3.png)
+![Dashboard Preview](Dashboard/page 4.png)
+![Dashboard Preview](Dashboard/page 5.png)
 
 ---
 
