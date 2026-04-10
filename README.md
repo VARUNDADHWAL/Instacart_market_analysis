@@ -38,7 +38,8 @@ instacart-market-analysis/
 │
 ├── README.md
 ├── .gitignore
-├── requirements.txt
+├── requirements.txt 
+├── LICENSE
 │
 ├── data/                          # Raw CSVs (not pushed to GitHub)
 │
@@ -47,18 +48,16 @@ instacart-market-analysis/
 │   └── schema.sql                 # Output from generate_schema.py
 │
 ├── notebooks/
-│   ├── 01_eda_cleaning.ipynb      # Exploratory analysis and data cleaning
-│   ├── 02_feature_engineering.ipynb
-│   └── 03_analysis_summary.ipynb
-│
-├── sql/
-│   ├── reorder_rate_by_aisle.sql
-│   ├── peak_order_hours.sql
-│   └── top_products_per_dept.sql
+│   ├── 01 : eda_cleaning.ipynb      # Exploratory analysis and data cleaning
+│   ├── 02 : feature_engineering.ipynb
+│   ├── 03 : customer_analysis.ipynb
+|   ├── 04 : product_analysis.ipynb
+|   ├── 05 : order_analysis.ipynb
+|
 │
 └── dashboard/
-    ├── instacart_dashboard.pbix
-    └── screenshots/
+    └── screenshots  # dashbord png
+do not upload power bi file due to large size
 ```
 
 ---
@@ -79,20 +78,20 @@ instacart-market-analysis/
 
 Open notebooks in order:
 ```
-notebooks/01_eda_cleaning.ipynb
-notebooks/02_feature_engineering.ipynb
-notebooks/03_analysis_summary.ipynb
+notebooks/eda_cleaning.ipynb
+notebooks/feature_engineering.ipynb
+notebooks/product_analysis.ipynb
+notebooks/order_analysis.ipynb
+notebooks/customer_analysis.ipynb
+
 ```
 
-### Step 3 — Explore SQL analysis
-
-Each file in `sql/` answers one business question. Run them directly in pgAdmin after data is loaded.
 
 ### Step 4 — View the dashboard
 
-Open `dashboard/instacart_dashboard.pbix` in Power BI Desktop.
+Open `dashboards/` in resoporatory.
 
-Screenshots are available in `dashboard/screenshots/` if you don't have Power BI installed.
+Screenshots are available in `dashboard/` and only 
 
 ---
 
