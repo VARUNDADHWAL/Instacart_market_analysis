@@ -89,18 +89,17 @@ notebooks/customer_analysis.ipynb
 
 ### Step 4 — View the dashboard
 
-Open `dashboards/` in resoporatory.
+Open `dashboard/` in resoporatory.
 
-Screenshots are available in `dashboard/` and only 
+Screenshots are available in `dashboard/` and only screenshots are uploaded due to larrge size of pbix file
 
 ---
 
 ## Key Findings
 
-> *(Fill this in once your analysis is complete)*
 
 - **Peak ordering time:** Sunday and Monday mornings see the highest order volume
-- **Most reordered aisle:** Fresh fruits and fresh vegetables have reorder rates above 60%
+- **Most reordered aisle:**  Fresh fruits and fresh vegetables have reorder rates above 60%
 - **Average basket size:** X items per order
 - **Top department:** Produce accounts for X% of all items ordered
 
@@ -108,9 +107,11 @@ Screenshots are available in `dashboard/` and only
 
 ## Dashboard Preview
 
-> *(Add a screenshot here once your Power BI dashboard is ready)*
-
-![Dashboard Preview](dashboard/screenshots/dashboard_overview.png)
+![Dashboard Preview](dashboard/Page 1.png)
+![Dashboard Preview](dashboard/page 2.png)
+![Dashboard Preview](dashboard/page 3.png)
+![Dashboard Preview](dashboard/page 4.png)
+![Dashboard Preview](dashboard/page 5.png)
 
 ---
 
