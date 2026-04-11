@@ -1,6 +1,16 @@
 # Instacart Market Basket Analysis
 
-An end-to-end data analysis project using real Instacart grocery order data of 3M+ rows  to uncover customer behaviour, reorder patterns, and peak shopping trends and transform it into a intractive dashbords using power bi and python(pandas) to do analysis.
+# Instacart Market Basket Analysis
+
+An end-to-end data analysis project on 3M+ rows of real Instacart grocery order data. The project covers the complete data workflow — from raw CSV files to a PostgreSQL database, through Python-based cleaning and feature engineering, SQL business analysis, and a 5-page interactive Power BI dashboard.The analysis uncovers customer shopping behaviour, reorder patterns, peak order times, product popularity, and customer segmentation across 206,000+ users and 49,000+ products.
+
+## Technologies
+
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue)
+![Power BI](https://img.shields.io/badge/PowerBI-Dashboard-yellow)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-orange)
 
 
 ## Dashboard Preview
@@ -63,14 +73,14 @@ instacart-market-analysis/
 ├── notebooks/
 │   ├── 01 : eda_cleaning.ipynb      # Exploratory analysis and data cleaning
 │   ├── 02 : feature_engineering.ipynb
-│   ├── 03 : customer_analysis.ipynb
+│   ├── 03 : order_analysis.ipynb
 |   ├── 04 : product_analysis.ipynb
-|   ├── 05 : order_analysis.ipynb
+|   ├── 05 : customer_analysis.ipynb
 |
 │
 └── dashboard/
     └── screenshots  # dashbord png
-do not upload power bi file due to large size
+did not upload power bi file due to large size
 ```
 
 ---
@@ -97,24 +107,34 @@ notebooks/product_analysis.ipynb
 notebooks/order_analysis.ipynb
 notebooks/customer_analysis.ipynb
 
-```
+``` 
 
+### Step 3  — View the dashboard
 
-### Step 4 — View the dashboard
+Open `dashboard/` in repository.
 
-Open `dashboard/` in resoporatory.
-
-Screenshots are available in `dashboard/` and only screenshots are uploaded due to larrge size of pbix file
+Screenshots are available in `dashboard/` and only screenshots are uploaded due to large size of pbix file
 
 ---
 
 ## Key Findings
 
-
-- **Peak ordering time:** Sunday and Monday mornings see the highest order volume
-- **Most reordered aisle:**  Fresh fruits and fresh vegetables have reorder rates above 60%
-- **Average basket size:** X items per order
-- **Top department:** Produce accounts for X% of all items ordered
+- **Peak ordering days:** Sunday and Monday have the highest order volume 
+  with 550K+ orders each
+- **Peak ordering hour:** 10am–3pm accounts for the majority of all orders
+- **Most ordered product:** Banana with 470K orders, followed by 
+  Bag of Organic Bananas at 380K
+- **Most reordered aisle:** Milk at 78% reorder rate — highest of all 134 aisles
+- **Top aisle by volume:** Fresh Fruits with 1.79M orders
+- **Overall reorder rate:** 43% of all items in an order are reorders
+- **Organic products:** 10.14% of all products are organic but have a 
+  higher reorder rate than non-organic
+- **Customer segments:** 50.68% Occasional shoppers, 26.5% Explorers, 
+  22.82% Loyal Regulars
+- **Loyal Regular behaviour:** Shop every 10 days on average with 71% reorder rate
+- **Occasional behaviour:** Shop every 18 days on average with 30% reorder rate
+- **Top department:** Produce with 19% of all order volume
+- **Dairy Eggs** has the highest reorder rate among all departments at 67%
 
 
 ---
